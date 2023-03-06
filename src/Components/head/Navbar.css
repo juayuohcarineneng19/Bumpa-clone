@@ -1,0 +1,8 @@
+.navbar{
+    height: 10rem;
+    width: 100%;
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 5rem;
+}
