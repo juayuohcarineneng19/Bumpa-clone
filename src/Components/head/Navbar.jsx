@@ -7,17 +7,20 @@ function Navbar() {
         <div className="logo">
         <a href="#">Logo</a>
       </div>
-      <ul className="main-nav">
+      <div className="main-nav">
+      <ul className="main-nav-list">
         <li><a href="#" className="main-nav-link">Features</a></li>
         <li><a href="#" className="main-nav-link">Company</a></li>
         <li><a href="#" className="main-nav-link">Community</a></li>
         <li><a href="#" className="main-nav-link">Pricing</a></li>
         <li><a href="#" className="main-nav-link">Learn</a></li>
-        <li><a href="#" className="main-nav-link">Sell on Instagram</a></li>
+        <li><a href="#" className="main-nav-link nav-cta">Sell on Instagram</a></li>
+        
       </ul>
+      </div>
       <div className="navbuttons">
-        <button className="btnLogin btn">Login</button>
-        <button className="btn btnGetStarted">Get Started</button>
+      <a href="#" class="btn btn--outline margin-right-sm  "><strong> Login </strong></a>
+         <a href="#" class="btn btn--full ">Get Started</a>
       </div>
     </div>
   )
