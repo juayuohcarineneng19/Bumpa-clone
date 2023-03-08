@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
   import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-  import { faBars } from '@fortawesome/free-solid-svg-icons'
+  // import { faBars } from '@fortawesome/free-solid-svg-icons'
 
 import './Navbar.css'
 
@@ -16,8 +16,8 @@ function Navbar() {
   // })
   return (
     <div className='navbar'>
-        <div className="logo">
-        <a href="#">Logo</a>
+        <div className="nav-logo">
+        <a href="#"><img src="./img/omnifood-logo.png" alt=""className='logo' /></a>
       </div>
       <div className="main-nav">
       <ul className="main-nav-list ">
