@@ -6,14 +6,7 @@ import ReactDOM from 'react-dom'
 import './Navbar.css'
 
 function Navbar() {
-  // const toggleButton = document.getElementByClassName("toggle-button")[0]
-  // const mainNavList = document.getElementsByClassName("main-nav-list")[0]
-  // // const navButtons = document.getElementsByClassName("navbuttons")[0]
-
-  // toggleButton.addEventListener('click',() =>{
-  //  mainNavList.classList.toggle('active')
-  //   // navButtons.classList.toggle('active')
-  // })
+  
   return (
     <div className='navbar'>
         <div className="nav-logo">

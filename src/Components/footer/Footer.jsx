@@ -1,7 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { faTwitter,faInstagram, faFacebook, faLinkedIn } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon} from "@fortawesome/react-fontawesome"
+import { faRandom, faInstagram, faFacebook, faLinkedin } from '@fortawesome/free-solid-svg-icons'
+
+
 import './Footer.css'
 
 function footer() {
@@ -16,10 +18,8 @@ function footer() {
                 The 360 business management experience for small businesses across Africa
                 </p>
                 <ul className="social-icons">
-                    <li><a href="#" className="footer-links"><FontAwesomeIcon icon= {faTwitter} /></a></li>
-                    <li><a href="#" className="footer-links"><FontAwesomeIcon icon= {'faInstagram'} /></a></li>
-                    <li><a href="#" className="footer-links"><FontAwesomeIcon icon= {'faFacebook'} /></a></li>
-                    <li><a href="#" className="footer-links"><FontAwesomeIcon icon= {'faLinkedIn'} /></a></li>
+                    <li> <a href="#" className="footer-links"><FontAwesomeIcon icon= {faRandom} /></a></li>
+                     
                 </ul>
             </div>
             <div className="company-col">
