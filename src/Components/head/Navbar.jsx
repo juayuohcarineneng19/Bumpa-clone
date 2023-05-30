@@ -23,9 +23,9 @@ function Navbar() {
         
       </ul>
       </div>
-      <div className="navbuttons ">
-      <NavLink href="#" class="btn btn--outline margin-right-sm  "><strong> Login </strong></NavLink>
-         <NavLink href="#" class="btn btn--full ">Get Started</NavLink>
+      <div className="navbuttons">
+      <a href="/" class="btn btn--outline margin-right-sm"><strong> Login </strong></a>
+         <a href="/" class="btn btn--full">Get Started</a>
       </div>
       
       {/* menu bars */}

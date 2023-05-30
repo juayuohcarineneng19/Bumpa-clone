@@ -141,7 +141,6 @@ li{
         display: none;
         flex-direction: column;
         margin-top: 1rem;
-        /* align-items: center; */
         text-align: center;
         width: 100%;
         gap: 1rem;
