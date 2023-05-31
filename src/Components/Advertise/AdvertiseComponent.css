@@ -1,0 +1,45 @@
+.advert{
+    display: flex;   
+    justify-content: center;
+    gap: 3.2rem;
+    /* width: 100%; */
+}
+
+.advert-info{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    gap: 3.2rem;
+    border-radius: 5%;
+    background-color: #e7e5e5
+}
+
+.advert-text{
+    text-align: start;
+    padding: 3.2rem;
+}
+
+.advert-text h1{
+    margin-bottom: 1.5rem;
+    font-size: 32px;
+    font-weight: 400;
+    color: #333;
+}
+
+.advert-text p{
+    margin-bottom: 1.5rem;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+}
+
+.advert-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+ 
+.advert-image img{
+    width: 400px;
+}

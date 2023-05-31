@@ -10,6 +10,7 @@ function HeroComponent() {
           Create a business website, issue invoices, record sales, receive
           financial reports & manage all business operations on the Bumpa app.
         </p>
+        <a href="/" class="btn btn--full">Get Started</a>
       </div>
       <div className="image">
         <img src="/img/heroimg.png" alt="herophoto" />
