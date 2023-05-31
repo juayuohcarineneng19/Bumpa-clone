@@ -1,13 +1,19 @@
 .advert{
     display: flex;   
-    justify-content: center;
     gap: 3.2rem;
-    /* width: 100%; */
+
+}
+
+.advertBusiness{
+    justify-content: center;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     /* width: 100%; */
+    gap: 2.2rem;
 }
 
 .advert-info{
     display: flex;
-    width: 50%;
     flex-direction: column;
     gap: 3.2rem;
     border-radius: 5%;
@@ -36,10 +42,10 @@
 .advert-image{
     display: flex;
     justify-content: center;
-    align-items: center;
-    text-align: center;
 }
  
 .advert-image img{
-    width: 400px;
+    height: 50vh;
+    width: 450px;
+    
 }
