@@ -15,10 +15,11 @@ function advertBusiness() {
         <AdvertiseComponent
         heading = "Become a tech-enabled business"
         text = "Create invoices & receipts, save customer details and record your daily sales from the shop, website, social media, 
-        and marketplaces easily on your mobile phone."
+        and marketplaces easily on your mobile phones. "
         link="Learn More"
         img ="/img/connect.png"
-        />
+
+        />;
 
 
 
