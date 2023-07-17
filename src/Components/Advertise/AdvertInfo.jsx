@@ -1,10 +1,11 @@
 import React from 'react'
+import './AdvertInfo.css'
 
 function AdvertInfo() {
   return (
     <div className="advert-section">
         <div className="img-advert">
-            <img src="/img/getillustration.png" alt=" advertsection" />
+            <img src="/img/phone.png" alt=" advertsection" />
         </div>
         <div className="advert-text">
             <p>

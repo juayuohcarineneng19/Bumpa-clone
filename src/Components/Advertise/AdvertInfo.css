@@ -1,0 +1,23 @@
+.advert-section{
+    height: 100vh;
+    background-color: #055805;
+    border-radius:20px;
+    display: flex;
+    gap: 5rem;
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr; */
+    padding-top: 5rem;
+    margin-top: 5rem;
+}
+
+.img-advert img{
+    height: 100%;
+    padding-left: 5rem;
+}
+
+.advert-text p{
+    text-align: center;
+    margin-top: 20%;
+    justify-content: center;
+    
+}
