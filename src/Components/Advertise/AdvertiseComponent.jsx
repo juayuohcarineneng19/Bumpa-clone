@@ -17,7 +17,7 @@ function AdvertiseComponent(props) {
         </div>
 
         </div>
- 
+   
     </div>
   )
 }
