@@ -65,6 +65,17 @@ li{
     cursor: pointer;
     font-family: inherit;
 }
+
+.btn1,
+.btn:link,
+.btn:visited{
+    display: inline-block;
+    padding: .8rem 1.5rem;
+    
+}
+
+
+
 .btn--full:link,
 .btn--full:visited{
     background-color: #008000;

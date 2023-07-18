@@ -13,18 +13,23 @@
     padding-left: 5rem;
 }
 
-.advert-text {
+.advert-text1 {
     margin-top: 10%;
     color: #f1f1f1;
+    padding: 3.2rem;
 }
 
-.advert-text h1{
-    font-weight: 800;
+.advert-text1 h1{
+    font-weight: bold;
     letter-spacing: 2px;
     color: #f1f1f1;
+    margin-bottom: 1.5rem;
 }
 
-.advert-text p, a{
+.advert-text1 p, a{
     color: #f1f1f1;
-    font-weight: bold;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+    font-size: 18px;
+    line-height: 29px;
 }
