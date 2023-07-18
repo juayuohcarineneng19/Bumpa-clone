@@ -8,9 +8,12 @@ function AdvertInfo() {
             <img src="/img/phone.png" alt=" advertsection" />
         </div>
         <div className="advert-text">
+          <h1>Grow your business like a pro!</h1>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam explicabo doloribus quis cum? Commodi dolore adipisci nesciunt soluta deserunt voluptatum?
+            Connect all the tools you need to grow your business, like payments, Google Analytics, Facebook Pixel, Instagram, etc, to your Bumpa app.
             </p>
+
+            <a href="/home">Learn more   &rarr;</a>
         </div>
     </div>
 

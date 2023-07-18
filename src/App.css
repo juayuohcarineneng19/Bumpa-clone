@@ -7,3 +7,6 @@ body{
     color: #555;
     padding: 2.8rem;
 }
+a{
+    text-decoration: none;
+}

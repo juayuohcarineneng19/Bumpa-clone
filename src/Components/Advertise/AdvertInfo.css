@@ -4,8 +4,6 @@
     border-radius:20px;
     display: flex;
     gap: 5rem;
-    /* display: grid; */
-    /* grid-template-columns: 1fr 1fr; */
     padding-top: 5rem;
     margin-top: 5rem;
 }
@@ -15,9 +13,18 @@
     padding-left: 5rem;
 }
 
-.advert-text p{
-    text-align: center;
-    margin-top: 20%;
-    justify-content: center;
-    
+.advert-text {
+    margin-top: 10%;
+    color: #f1f1f1;
+}
+
+.advert-text h1{
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #f1f1f1;
+}
+
+.advert-text p, a{
+    color: #f1f1f1;
+    font-weight: bold;
 }
