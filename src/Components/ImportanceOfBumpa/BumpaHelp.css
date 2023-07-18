@@ -1,5 +1,34 @@
+.bumpahelpcomponent{
+    margin-top: 8rem;
+}
+
+.heading3{
+    text-align: center;
+}
+
+.heading3 h1{
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    color: #000;
+}
+
+.websitehome{
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10rem;
+}
+
+.img-website img{
+   max-width: 100%;
+}
+
+
+/* an accordion */
 .accordioncomponent{
-    margin-top:5rem;
+    max-width: 100%;
+    color: #333;
+    font-weight: lighter;
 }
 
 .accordion {
@@ -30,6 +59,7 @@
 
   .accordion-icon {
     margin-left: 98%;
+    gap: 5rem;
   }
   
   

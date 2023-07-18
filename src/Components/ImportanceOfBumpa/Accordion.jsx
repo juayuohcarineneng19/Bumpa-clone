@@ -34,7 +34,7 @@ const Accordion = () => {
       },
       {
         title: 'Meta Intergration',
-        content: 'Receive instagram DMs on Bummpa and sell 5x faster on Instagram',
+        content: 'Receive instagram DMs on Bummpa and sell 5x faster on Instagram ',
       },
   ];
 
