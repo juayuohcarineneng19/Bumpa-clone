@@ -5,9 +5,8 @@ import "./Home.css"
 import HeroComponent from '../../Components/Hero/HeroComponent'
 import AdvertBusiness from '../../Components/Advertise/advertBusiness'
 import AdvertInfo from '../../Components/Advertise/AdvertInfo'
-// import Accordion from '../../Components/ImportanceOfBumpa/Accordion'
 import BumpaHelpComponent from '../../Components/ImportanceOfBumpa/BumpaHelpComponent'
-
+import Connect from '../../Components/Connections/Connect'
 function Home() {
   return (
     <div>
@@ -16,7 +15,7 @@ function Home() {
         <AdvertBusiness/>
         <AdvertInfo/>
         <BumpaHelpComponent/>
-        {/* <Accordion/> */}
+        <Connect/>
         <Footer/>
     </div>
   )
