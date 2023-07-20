@@ -7,6 +7,7 @@ import AdvertBusiness from '../../Components/Advertise/advertBusiness'
 import AdvertInfo from '../../Components/Advertise/AdvertInfo'
 import BumpaHelpComponent from '../../Components/ImportanceOfBumpa/BumpaHelpComponent'
 import Connect from '../../Components/Connections/Connect'
+import BusinessPlan from '../../Components/Business-plan/BusinessPlan'
 function Home() {
   return (
     <div>
@@ -16,6 +17,7 @@ function Home() {
         <AdvertInfo/>
         <BumpaHelpComponent/>
         <Connect/>
+        <BusinessPlan/>
         <Footer/>
     </div>
   )

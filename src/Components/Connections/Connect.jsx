@@ -84,14 +84,7 @@ function connect() {
            <p> <span style={connectStyle}>&#46;</span>Connected</p>
             </div>
             </div>
-
-
-
-
-
-            
-            </div>
-           
+            </div> 
     </div>
   )
 }
