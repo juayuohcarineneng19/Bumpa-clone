@@ -51,8 +51,7 @@ function BusinessPlan() {
             <li> <span style={iconStyles}><FaCheck/></span>20 messaging credits</li>
             <li> <span style={iconStyles}><FaCheck/></span>Business Analytics</li>
             <li> <span style={iconStyles}><FaCheck/></span>Free .bumpa.shop domain</li>
-            <li> <span style={iconStyles}><FaCheck/></span>Free .bumpa.shop domain</li>
-            <li> <span style={iconStyles}><FaCheck/></span>Free .bumpa.shop domain</li>
+
           </ul>
           <a href="/" class="btn  btn--full btn--busines">Get Started</a>
     </div>        
@@ -76,7 +75,7 @@ function BusinessPlan() {
           <a href="/" class="btn  btn--full btn--busines">Get Started</a>
     </div>           
     </div>
-    <h1 className='borderbottom'>compare plans and features</h1>
+    <p className='borderbottom'>compare plans and features</p>
      </div>
     
   )

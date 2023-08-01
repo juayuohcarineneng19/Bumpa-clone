@@ -1,10 +1,8 @@
 
 .business-plan{
-    /* height: 100vh; */
     background-color: #000;
     margin-top: 5rem;
     height: 100%;
-    /* width: 100vw; */
     padding: 0;
 }
 
@@ -31,8 +29,6 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     padding: 3rem;
     max-width: 28rem;
-    /* position: absolute; */
-
   }
   
   .card-title {
@@ -70,5 +66,7 @@
   }
   .borderbottom{
     padding: 5rem;
+    text-align: center;
+    color: #008000;
   }
   
