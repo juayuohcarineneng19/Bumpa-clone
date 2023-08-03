@@ -8,17 +8,19 @@ import AdvertInfo from '../../Components/Advertise/AdvertInfo'
 import BumpaHelpComponent from '../../Components/ImportanceOfBumpa/BumpaHelpComponent'
 import Connect from '../../Components/Connections/Connect'
 import BusinessPlan from '../../Components/Business-plan/BusinessPlan'
+import Logo from '../../Components/Logo/Logo'
 function Home() {
   return (
     <div>
-        <Navbar/>
-        <HeroComponent/>
+         <Navbar/>
+        {/* <HeroComponent/>
         <AdvertBusiness/>
         <AdvertInfo/>
         <BumpaHelpComponent/>
         <Connect/>
         <BusinessPlan/>
-        <Footer/>
+        <Logo/>  */}
+        {/* <Footer/> */}
     </div>
   )
 }
