@@ -13,14 +13,15 @@ function Home() {
   return (
     <div>
          <Navbar/>
-        {/* <HeroComponent/>
+         <HeroComponent/>
         <AdvertBusiness/>
         <AdvertInfo/>
         <BumpaHelpComponent/>
         <Connect/>
         <BusinessPlan/>
-        <Logo/>  */}
-        {/* <Footer/> */}
+        <Logo/>  
+        <Footer/>
+        
     </div>
   )
 }

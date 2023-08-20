@@ -1,4 +1,51 @@
-.logo{
-    margin-top:5rem;
-    color:#333;
+
+.heading5{
+    text-align: center;
+    padding-top:4rem;
+    color: #333;
 }
+ .heading5 h1{
+   letter-spacing: 3px;
+    margin-bottom: 1rem;
+ }
+
+ .heading5 p{
+    color: #777;
+    font-size: large;
+ }
+
+ .carousel {
+    position: relative;
+    overflow: hidden;
+    width: 500px; 
+    height: 300px;
+  }
+  
+  .inner {
+    white-space: nowrap;
+    transition: transform 0.3s;
+  }
+  
+  .indicators {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .indicators button {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background: #fff;
+    cursor: pointer;
+  }
+  
+  .indicators button.active {
+    background: #555;
+    color: #fff;
+  }
+  
+  .carousel img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
