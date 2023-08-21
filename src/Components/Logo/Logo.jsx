@@ -15,12 +15,12 @@ function Logo() {
     <div className="carousel">
         <div className="marquee">
           <div className="marquee-inner">
-          <img src="image1.jpg" alt="Image 1" />
-        <img src="image2.jpg" alt="Image 2" />
-        <img src="image3.jpg" alt="Image 3" />
-        <img src="image4.jpg" alt="Image 4" />
-        <img src="image5.jpg" alt="Image 5" />
-        <img src="image6.jpg" alt="Image 6" />
+          <img src="/img/logos/business-insider.png" alt="logo 1" />
+        <img src="/img/logos/techcrunch.png" alt="logo 3" />
+        <img src="/img/logos/the-new-york-times.png" alt="logo 4" />
+        <img src="/img/logos/forbes.png" alt="logo 2" />
+        <img src="/img/logos/usa-today.png" alt="logo 5" />
+        <img src="/img/logos/the-new-york-times.png" alt="pic 6" />
           </div>
         </div>
       </div>
