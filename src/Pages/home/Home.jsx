@@ -9,6 +9,7 @@ import BumpaHelpComponent from '../../Components/ImportanceOfBumpa/BumpaHelpComp
 import Connect from '../../Components/Connections/Connect'
 import BusinessPlan from '../../Components/Business-plan/BusinessPlan'
 import Logo from '../../Components/Logo/Logo'
+import Testimonial from '../../Components/Testimonial/Testimonial'
 function Home() {
   return (
     <div>
@@ -20,6 +21,7 @@ function Home() {
         <Connect/>
         <BusinessPlan/>
         <Logo/>  
+        <Testimonial/>
         <Footer/>
         
     </div>
