@@ -2,3 +2,18 @@
     margin-top: 8rem;
     margin-bottom: 5rem;
 }
+
+.testimonial-carousel{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8rem;
+}
+.testimonial-card{
+    width:50rem;
+}
+
+.testimonial-card img{
+    width: 15rem;
+    height: 15      rem;
+    border-radius: 12px;
+}

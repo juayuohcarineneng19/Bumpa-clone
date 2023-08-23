@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Testimonial.css'
+import Carousel from './Carousel';
 
 function Testimonial() {
     const [count, setCount] = useState(0);
@@ -30,6 +31,7 @@ function Testimonial() {
             <p>Our customers talk about how Bumpa solves real life business problems for them</p>
         </div>
 
+        <Carousel/>
     </div>
   )
 }
