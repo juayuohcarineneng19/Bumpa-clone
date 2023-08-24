@@ -15,7 +15,7 @@ function Logo() {
     <div className="carousel">
         <div className="marquee">
           <div className="marquee-inner">
-          <img src="/img/log/techcrunch.png" alt="logo 3" />
+          <img src="/img/logos/techcrunch.png" alt="logo 3" />
         <img src="/img/logos/the-new-york-times.png" alt="logo 4" />
         <img src="/img/logos/forbes.png" alt="logo 2" />
         <img src="/img/logos/usa-today.png" alt="logo 5" />

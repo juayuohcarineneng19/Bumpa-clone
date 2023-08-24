@@ -1,11 +1,15 @@
+.testimonial{
+    margin-top: 8rem;
+}
 
 .testimonial-carousel {
-    padding-top: 7rem;
+    padding-top: 6rem;
     display: grid; 
     grid-template-columns: 1fr 1fr;
     margin: 0 auto;
   }
-  
+
+
  .testimonial-card{
     margin-left: 5rem;
  } 
@@ -38,25 +42,15 @@
     opacity: 0.8;
   }
 
-
-
-/* .testimonial{
-    margin-top: 8rem;
-    margin-bottom: 5rem;
-}
-
-.testimonial-carousel{
-    display: flex;
-    justify-content: space-between;
-    padding-top: 8rem;
-}
-.testimonial-card{
-    width:50rem;
-    
-}
-
-.testimonial-card img{
-    width: 36rem;
-    height: 20rem;
-    border-radius: 12px;
-} */
+  .carousel-wrap {
+    position: relative;
+  }
+  
+  .testimonial-carousel > :nth-child(n+3)  {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+  }
+  
