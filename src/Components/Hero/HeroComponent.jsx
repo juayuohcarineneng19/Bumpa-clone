@@ -13,7 +13,7 @@ function HeroComponent() {
         <a href="/" class="btn btn--full">Get Started</a>
       </div>
       <div className="image">
-        <img src="/img/heroimg.png" alt="herophoto" />
+        <img src="/img/hero-image.png" alt="herophoto" />
       </div>
     </div>
   )

@@ -3,14 +3,14 @@
     display: -ms-flexbox;
     align-items: center;
     padding: 4.2rem;
-    gap: 3.2rem;
+    gap: 5.2rem;
 
   }
   
   .text h2{
-    font-size: 4.2rem;
+    font-size: 3.8rem;
     line-height: 1;
-    font-weight: 700;
+    font-weight: 500;
     margin-bottom: 3.2rem;
     color: rgb(32, 32, 33);
   }
@@ -23,13 +23,25 @@
   }
   
   .image img{
-    width: 100%;
+    width: 30rem;
   }
   
-  @media screen and (max-width: 1000px) {
+   @media screen and (max-width: 1000px) {
     .hero{
       flex-direction: column;
       -ms-flex-direction: column;
     }
+
+    .text h2 {
+      font-size: 2.5rem; 
+    }
+    
+    .text p {
+      font-size: 1.2rem;
+    }
+
+    .image img{
+      width: 100%;
+    }
   }
-  
+   
