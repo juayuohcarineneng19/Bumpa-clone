@@ -49,3 +49,14 @@
     width: 450px;
     
 }
+
+@media (max-width: 1200px) {
+    .advertBusiness {
+      grid-template-columns: 1fr; 
+      max-width: 100%;
+    }
+  
+    .advert-image img {
+      width: 100%;
+    }
+  }

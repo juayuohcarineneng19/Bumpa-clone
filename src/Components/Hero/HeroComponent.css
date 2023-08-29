@@ -2,7 +2,8 @@
     display: flex;
     display: -ms-flexbox;
     align-items: center;
-    padding: 4.2rem;
+    padding-top: 6.2rem;
+    padding-bottom: 4.2rem;
     gap: 5.2rem;
 
   }
@@ -10,13 +11,13 @@
   .text h2{
     font-size: 3.8rem;
     line-height: 1;
-    font-weight: 500;
+    font-weight: 400;
     margin-bottom: 3.2rem;
     color: rgb(32, 32, 33);
   }
   
   .text p{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     line-height: 1.5;
     color: rgb(123, 123, 123);
     padding-bottom: 2.8rem;
@@ -34,6 +35,7 @@
 
     .text h2 {
       font-size: 2.5rem; 
+      font-weight: 500;
     }
     
     .text p {

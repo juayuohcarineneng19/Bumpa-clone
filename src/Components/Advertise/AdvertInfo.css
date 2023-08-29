@@ -33,3 +33,30 @@
     font-size: 18px;
     line-height: 29px;
 }
+
+
+@media (max-width: 1200px) {
+
+    .advert-section { 
+      flex-direction: column;
+      padding-top: 0;
+      gap: 0;
+      height: auto;
+    }
+  
+    .advert-text1 {
+      order: -1; 
+      margin-top: 0;
+    }
+  
+    .img-advert img {
+      width: 100%;
+      height: auto;
+      padding-left: 0;
+      padding: 2rem;
+      padding-bottom: 0;
+
+          }
+  }
+
+  
