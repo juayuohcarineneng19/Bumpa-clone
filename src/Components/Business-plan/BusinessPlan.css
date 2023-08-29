@@ -70,3 +70,13 @@
     color: #008000;
   }
   
+  @media (max-width: 1200px) {
+    .card-wrapper{
+      flex-direction: column;
+      gap: 3rem;
+    }
+
+    .card{
+      max-width: 100% ;
+    }
+  }

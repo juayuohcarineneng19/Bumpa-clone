@@ -30,7 +30,6 @@ function Testimonial() {
             <h1>Trusted By Over <span style={spanStyle}>{ count }</span> SME's</h1>
             <p>Our customers talk about how Bumpa solves real life business problems for them</p>
         </div>
-
         <Carousel/>
     </div>
   )

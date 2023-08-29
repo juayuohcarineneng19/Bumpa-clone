@@ -62,4 +62,29 @@
     gap: 5rem;
   }
   
+  @media (max-width: 1200px) {
+
+    .websitehome {
+      grid-template-columns: 1fr;
+      gap:5rem
+    }
+  
+    .websitehome,
+    .accordioncomponent {
+      max-width: 100%; 
+    }
+  
+    .img-website img {
+      width: 100%;
+    }
+    
+    .heading3 h1{
+      font-size: 3rem;
+      font-weight: 400;
+      margin-bottom: 1rem;
+      color: #000;
+  }
+  
+  
+  }
   

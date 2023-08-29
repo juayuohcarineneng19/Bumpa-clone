@@ -44,38 +44,4 @@
 }
 
 
- /* .carousel {
-    position: relative;
-    overflow: hidden;
-    width: 500px; 
-    height: 300px;
-  }
-  
-  .inner {
-    white-space: nowrap;
-    transition: transform 0.3s;
-  }
-  
-  .indicators {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .indicators button {
-    padding: 5px 10px;
-    border: 1px solid #ccc;
-    background: #fff;
-    cursor: pointer;
-  }
-  
-  .indicators button.active {
-    background: #555;
-    color: #fff;
-  }
-  
-  .carousel img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  } */
+ 
