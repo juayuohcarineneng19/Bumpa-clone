@@ -2,17 +2,45 @@
     margin-top: 8rem;
 }
 
-.testimonial-carousel {
-    padding-top: 6rem;
-    display: grid; 
-    grid-template-columns: 1fr 1fr;
-    margin: 0 auto;
-  }
+
+.testimonial-carousel{
+  display: flex;
+  margin-top: 5rem;
+}
+
+.test{
+  display: flex;
+  gap: 3rem;
+  width: 100%;
+  /* margin-left: 5rem; */
+}
+.testimony{
+  padding: 2rem;
+  width: 40rem;
+  height: 20rem;
+}
+
+.testimony h3 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
 
 
- .testimonial-card{
-    margin-left: 5rem;
- } 
+.testimony p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.testimony p:first-of-type {
+  margin-bottom: 15px;
+
+} 
+
+.testimony p:last-child {
+  font-weight: bold;
+}
+
 
   .testimonial-card img {
     width: 32rem; 
@@ -21,80 +49,66 @@
     border-radius: 8px;
   }
   
-  .testimony {
-    padding: 2rem;
-  }
-  
-  .testimony h3 {
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
-  }
-  
-  .testimony p:first-of-type {
-    font-size: 1.1rem;
-    line-height: 1.4;
-    margin-bottom: 1rem;  
-  }
-  
-  .testimony p:last-of-type {
-    font-size: 1rem;
-    opacity: 0.8;
-  }
+   
 
-  .carousel-wrap {
-    position: relative;
-    height: 30rem;
-  }
+    
   
-  .testimonial-carousel > :nth-child(n+3)  {
+  
+
+   /* .test {
+    display: flex;
     position: absolute;
-    top: 0;
     left: 0;
+    width: 100%;
     opacity: 0;
-    pointer-events: none;
+    transition: opacity 0.5s; 
+  } */
+  
+   .test.active {
+    opacity: 1;
+    position: relative;
   }
-  
-
-  /*  */
-  
-  
+   
   .testimonial-carousel {
-    position: absolute;
-    top: 0;
-    left: 0;
-    animation: slide 10s infinite; 
+    position: relative;
+    overflow: hidden;
   }
   
   @keyframes slide {
     0% {
-      opacity: 0;
-      transform: translateY(-50%); 
+      transform: translateX(0);
     }
-    10% {
-      opacity: 1; 
-      transform: translateY(0);
+    20% {
+      transform: translateX(0);
     }
-    90% {
-      opacity: 1;
-      transform: translateY(0); 
+    25% {
+      transform: translateX(-100%);
+    }
+    45% {
+      transform: translateX(-100%);
+    }
+    50% {
+      transform: translateX(-200%);
+    }
+    70% {
+      transform: translateX(-200%);
+    }
+    75% {
+      transform: translateX(0);
     }
     100% {
-      opacity: 0;
-      transform: translateY(50%); 
+      transform: translateX(0);  
     }
   }
   
-  .testimonial-carousel > :nth-child(n+1) {
-    animation-delay: 5s; 
+  .test {
+    animation: slide 12s infinite;
   }
   
-  .testimonial-carousel > :nth-child(2) {
-    /* animation-delay: 2s; */
+  .test:nth-child(2) {
+    animation-delay: 4s;
   }
   
-  .testimonial-carousel > :nth-child(3) {
-    animation-delay: 2s;
-  }
-  
-  
+  .test:nth-child(3) { 
+    animation-delay: 8s;
+  } 
