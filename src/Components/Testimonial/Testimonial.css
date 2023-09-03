@@ -1,23 +1,19 @@
 .testimonial{
     margin-top: 8rem;
+    height:80vh;
+    overflow-y : hidden;
 }
-
 
 .testimonial-carousel{
-  display: flex;
-  margin-top: 5rem;
+  margin-top: 5rem;  
+  position: relative; 
+  margin-left: 3rem; 
 }
 
-.test{
-  display: flex;
-  gap: 3rem;
-  width: 100%;
-  /* margin-left: 5rem; */
-}
 .testimony{
-  padding: 2rem;
-  width: 40rem;
-  height: 20rem;
+  padding: 5rem;
+  width: 100%;
+  
 }
 
 .testimony h3 {
@@ -25,7 +21,6 @@
   font-weight: 500;
   margin-bottom: 10px;
 }
-
 
 .testimony p {
   font-size: 18px;
@@ -41,7 +36,6 @@
   font-weight: bold;
 }
 
-
   .testimonial-card img {
     width: 32rem; 
     height: 20rem;
@@ -49,66 +43,150 @@
     border-radius: 8px;
   }
   
-   
-
-    
-  
-  
-
-   /* .test {
+  .test {
     display: flex;
+    flex-direction: row;
+    align-items: center;
     position: absolute;
-    left: 0;
-    width: 100%;
+    top: 0;
     opacity: 0;
-    transition: opacity 0.5s; 
-  } */
+    transition: opacity 0.5s;
+    width: 100%;
+  }
   
-   .test.active {
+  .test.active {
     opacity: 1;
-    position: relative;
+    position: absolute; 
+  } 
+  
+  .test {
+    
+    animation: slide 120s infinite;
   }
-   
-  .testimonial-carousel {
-    position: relative;
-    overflow: hidden;
-  }
+  
   
   @keyframes slide {
     0% {
-      transform: translateX(0);
+      opacity: 1;
     }
-    20% {
-      transform: translateX(0);
+    10% {
+      opacity: 1; 
+    }
+    15% {
+      opacity: 0;
     }
     25% {
-      transform: translateX(-100%);
+      opacity: 0;
+    }
+    30% {
+      opacity: 1;
+    }
+    40% {
+      opacity: 1;
     }
     45% {
-      transform: translateX(-100%);
+      opacity: 0;
     }
-    50% {
-      transform: translateX(-200%);
+    55% {
+      opacity: 0;
+    }
+    60% {
+      opacity: 1;
     }
     70% {
-      transform: translateX(-200%);
+      opacity: 1;
     }
     75% {
-      transform: translateX(0);
+      opacity: 0;
     }
     100% {
-      transform: translateX(0);  
+      opacity: 0;
     }
   }
   
-  .test {
-    animation: slide 12s infinite;
+  .test:nth-child(1) {
+    animation-delay: 10s;
   }
   
   .test:nth-child(2) {
-    animation-delay: 4s;
+     animation-delay: 30s; 
   }
   
-  .test:nth-child(3) { 
-    animation-delay: 8s;
-  } 
+  .test:nth-child(3) {
+    animation-delay: 50s; 
+  }
+
+  /* @media (max-width: 1000px) {
+
+    .test {
+      flex-direction: column;
+    }
+  
+    .testimonial-card {
+      order: -1; 
+      width: 100%;
+    }
+  
+    .testimonial-card img {
+      /* max-height: 200px; */
+      /* object-fit: cover;
+      width: 100%;
+    }
+  
+    .testimony {
+      width: 100%;
+      padding: 1rem;
+    }
+  
+    .testimony h3 {
+      font-size: 18px;
+    }
+  
+    .testimony p {
+      font-size: 14px;
+    }
+  
+    .testimonial {
+      height: auto;
+    }
+  
+  } */
+  
+
+  @media (max-width: 1000px) {
+
+    .testimonial-carousel{
+      height: 70vh;
+      overflow-y: hidden;
+    }
+
+    .test {
+      flex-direction: column;
+    }
+  
+    .testimonial-card {
+      order: -1;
+      /* height:30vh ; */
+      width: 100%;
+      object-fit: contain;
+      /* height: auto; */
+    }
+  
+    .testimonial-card img { 
+      height:50% ;
+      width: 100%;
+      
+    }
+  
+    .testimony {
+      height: auto;
+      width: 100%;
+      padding: 2rem;
+    }
+  
+    .testimonial {
+      height: auto;
+      overflow-y: visible; 
+    }
+  
+  }
