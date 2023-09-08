@@ -167,9 +167,16 @@
     }
   }
 
-  @media (max-width: 400px){
+  @media (max-width: 390px){
     .testimonial-carousel{
-      height: 80vh;
+      height: 100vh;
+      /* width:100%; */
+    }
+    .testimony p{
+      font-size: 16px;
+    }
+    .testimony{
+      padding: 0;
     }
   }
 
