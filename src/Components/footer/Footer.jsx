@@ -12,7 +12,8 @@ function footer() {
         <div className="container">
             <div className="logo-col">
                 <p className="logo-footer">
-                    <a href="#"><img src="./img/omnifood-logo.png" alt=""className='logo' /></a>
+                    <h1 className='LOGO'>logo</h1>
+                    {/* <a href="#"><img src="./img/omnifood-logo.png" alt=""className='logo' /></a> */}
                 </p>
                 <p className="footer-text">
                 The 360 business management experience for small businesses across Africa

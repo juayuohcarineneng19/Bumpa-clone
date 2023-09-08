@@ -31,6 +31,9 @@ function Testimonial() {
             <p>Our customers talk about how Bumpa solves real life business problems for them</p>
         </div>
         <Carousel/>
+        {/* <div className="testimonial_text">
+          <h5>hgljkh</h5>
+        </div> */}
     </div>
   )
 }

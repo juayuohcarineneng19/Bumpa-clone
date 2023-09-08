@@ -1,18 +1,15 @@
 .footer{
-    padding: 4.8rem;
+    /* padding: 4.8rem; */
+    margin-top: 4rem;
 }
 .container{
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr;
-}
-.logo-col{
- 
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .footer-text{
     padding-top: 1rem;
     line-height: 2rem;
-    /* font-size: 1.1rem; */
     font-weight: 400;
     width: 75%;
 }
@@ -44,12 +41,16 @@
     color: #555;
 
 }
-@media (max-width:45em ){
+@media (max-width:800px ){
     .container{
         grid-template-columns: 1fr 1fr;
         row-gap: 2rem;
-        align-items: center;
+        /* align-items: center; */
         text-align: center;
+    }
+
+    .footer{
+        /* padding: 2rem; */
     }
     
 }

@@ -44,9 +44,7 @@ function Carousel() {
                  aliquid libero atque nobis illo. Voluptate, voluptatibus.</p>   
                  <p>Peculiar</p>
         </div>
-        </div>
-
-               
+        </div>       
     </div>
     </div>
   )
