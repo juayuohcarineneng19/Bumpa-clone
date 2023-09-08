@@ -132,8 +132,6 @@
       width:100%;
       padding: 0;
     }
-  
-   
     .testimonial-card img { 
       width: 100%; 
       height: 80vh;
@@ -147,7 +145,7 @@
     }
   
     .testimonial {
-      height: auto;
+      height: 100vh;
       overflow-y: visible; 
       margin-top: 4rem;
 
@@ -157,7 +155,7 @@
 
   @media (max-width: 650px){
     .testimonial-card img{
-      height:auto;
+      height:40vh;
       width: 100%;
       object-fit: fill;
     }
@@ -165,18 +163,17 @@
       height: 60vh;
       width: 100%;
     }
-  }
-
-  @media (max-width: 390px){
-    .testimonial-carousel{
-      height: 100vh;
-      /* width:100%; */
-    }
     .testimony p{
       font-size: 16px;
     }
     .testimony{
       padding: 0;
+    }
+  }
+
+  @media (max-width: 390px){
+    .testimonial-carousel{
+      height: 100vh;
     }
   }
 
