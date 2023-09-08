@@ -29,7 +29,7 @@
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     padding: 3rem;
-    max-width: 28rem;
+    max-width: 30rem;
   }
   
   .card-title {
@@ -71,26 +71,14 @@
     color: #008000;
   }
   
-  /* @media (max-width: 1300px) {
-    .card-wrapper{
-      gap: 2rem;
-      padding: 2rem;
-    }
-    .card{
-      padding: 3rem;
-      
-      
-    }
-  } */
-
+  
   @media (max-width: 1000px) {
     .card-wrapper{
       flex-direction: column;
+      margin: 1.5rem;
     }
     .card{
       max-width: 100% ;
-      padding: 1rem;
-
     }
 
   }

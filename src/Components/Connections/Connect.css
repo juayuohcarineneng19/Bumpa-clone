@@ -64,6 +64,10 @@
     padding: 2rem;
   }
 
+  .advert-text1-helper{
+    padding: 0;
+  }
+
   .logos-section {
     flex-wrap: nowrap;
     overflow-x: auto;

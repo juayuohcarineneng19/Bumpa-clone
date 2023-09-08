@@ -12,14 +12,13 @@ function footer() {
         <div className="container">
             <div className="logo-col">
                 <p className="logo-footer">
-                    <h1 className='LOGO'>logo</h1>
-                    {/* <a href="#"><img src="./img/omnifood-logo.png" alt=""className='logo' /></a> */}
+                    <h2 className='LOGO'>LOGO</h2>
                 </p>
                 <p className="footer-text">
                 The 360 business management experience for small businesses across Africa
                 </p>
                 <ul className="social-icons">
-                    <li> <a href="#" className="footer-links"><FontAwesomeIcon icon= {faRandom} /></a></li>
+                    <li> <a href="#" className="footer-links"><FontAwesomeIcon icon= {faRandom} /> </a></li>
                      
                 </ul>
             </div>

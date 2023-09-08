@@ -7,7 +7,7 @@ function connect() {
     }
   return (
     <div className='connect'>
-        <div className="advert-text1">
+        <div className="advert-text1 advert-text1-helper">
           <h1>Connected Apps</h1>
             <p>
             Your Bumpa app works easily with these business tools.
