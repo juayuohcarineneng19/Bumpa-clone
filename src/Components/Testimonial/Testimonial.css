@@ -165,10 +165,11 @@
       height: 60vh;
       width: 100%;
     }
+  }
 
-    @media (max-width: 400px){
-      .testimonial-carousel{
-        height: 80vh;
-      }
+  @media (max-width: 400px){
+    .testimonial-carousel{
+      height: 80vh;
+    }
   }
 
