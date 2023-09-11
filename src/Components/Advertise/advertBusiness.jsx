@@ -8,14 +8,14 @@ function advertBusiness() {
         <AdvertiseComponent
         heading = "Bring your business online"
         text = "Create a professional business website in 60 seconds and start selling to anyone on the internet."
-        link="Learn More"
+        link="Learn More &rarr; "
         img ="/img/business.png"
         />
 
         <AdvertiseComponent
         heading = "Become a tech-enabled business"
         text = "Create invoices & receipts, save customer details and record your daily sales from the shop, website, social media and marketplaces easily on your mobile phone."
-        link="Learn More"
+        link="Learn more &rarr;"
         img ="/img/connect.png"
         />
 

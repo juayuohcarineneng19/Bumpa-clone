@@ -46,17 +46,31 @@
  
 .advert-image img{
     height: 50vh;
+    object-fit: cover;
     width: 450px;
     
+}
+.props.link{
+    color: #008000;
 }
 
 @media (max-width: 1200px) {
     .advertBusiness {
       grid-template-columns: 1fr; 
-      max-width: 100%;
+      width: 100%;
     }
   
     .advert-image img {
       width: 100%;
+      height: auto;
     }
+    .advert-info{
+        gap: 0;
+    }
+
+    .advert-text{
+        padding-bottom: 2rem;
+    }
+    
+    
   }

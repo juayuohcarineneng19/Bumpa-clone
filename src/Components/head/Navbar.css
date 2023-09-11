@@ -12,6 +12,7 @@
 }
 .logo{
       height: 1.5rem;
+      color: #000;
 }
   
 li{
@@ -73,8 +74,6 @@ li{
     padding: .8rem 1.5rem;   
 }
 
-
-
 .btn--full:link,
 .btn--full:visited{
     background-color: #008000;
@@ -84,7 +83,6 @@ li{
 .btn--busines{
     width: 100%;
     text-align: center;
-    /* position: fixed; */
     margin: 30px 0;
     
 }
@@ -111,59 +109,41 @@ li{
     margin-right: 1.4rem !important;
 }
 
-/* menu bars for query */
-.toggle-button{
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
-    display: none;
-    justify-content: space-between;
-    flex-direction: column;
-    width: 3rem;
-    height: 3rem;
-}
-.toggle-button .bars{
-    height: .5rem;
-    width: 100%;
-    background-color: black;
-    border-radius: 1rem;
-}
-@media (max-width:75em ) {
-    .toggle-button{
-        display: flex;
-    }
-    .main-nav-list{
-        display: none;
-        width: 100%;
-        flex-direction: column;
-        align-items: flex-start;  
-    }  
-    .logo{
-        margin-bottom: 1rem;
-    }
-    .navbar{
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    .main-nav-list li{
-        text-align: center;
-    }
-    .main-nav-list li a{
-        padding: .5rem 1rem;
-    }
-    .main-nav-list.active,
-    .navbuttons.active{
-        display: flex;
-    }
-    .navbuttons{
-        display: none;
-        flex-direction: column;
-        margin-top: 1rem;
-        text-align: center;
-        width: 100%;
-        gap: 1rem;
-        padding: 2rem;
-    }
 
-}
+/* Add hamburger menu icon */
+
+@media (max-width: 1000px) {
+
+    .hamburger {
+      display: block;
+      cursor: pointer;
+    }
+  
+    .hamburger .line {
+      width: 30px;
+      height: 3px;
+      background: #333;
+      margin: 6px 0;
+    }
+  
+    /* Hide default menu */  
+    .main-nav-list {
+      display: none;
+    }
+  
+    /* Show menu on hamburger click */
+    .main-nav-list.active {
+      display: flex;
+    }
+  
+  }
+  
+  /* Make menu vertical */
+  @media (max-width: 768px) {
+  
+    .main-nav-list.active {
+      flex-direction: column;
+    }
+  
+  }
+

@@ -1,17 +1,24 @@
-import React from 'react'
+import { useState } from "react";
 import { NavLink } from "react-router-dom";
 
 import './Navbar.css'
 
 function Navbar() {
+  const [menuOpen, setMenuOpen] = useState(false) 
+
+// Toggle menu function
+const toggleMenu = () => {
+  setMenuOpen(!menuOpen)
+}
+
   
   return (
     <div className='navbar'>
         <div className="nav-logo">
-        <NavLink href="#"><img src="./img/omnifood-logo.png" alt=""className='logo' /></NavLink>
+        <h2 className="logo">Bumpa </h2>
       </div>
       <div className="main-nav">
-      <ul className="main-nav-list ">
+      <ul className={`main-nav-list ${menuOpen ? 'active' : ''}`}>
         <li><NavLink href="#" className="main-nav-link">Features</NavLink></li>
         <li><NavLink href="#" className="main-nav-link">Community</NavLink></li>
         <li><NavLink href="#" className="main-nav-link">Pricing</NavLink></li>
@@ -24,13 +31,12 @@ function Navbar() {
       <a href="/" class="btn btn--outline margin-right-sm"><strong> Login </strong></a>
          <a href="/" class="btn btn--full">Get Started</a>
       </div>
-      
-      {/* menu bars */}
-      <NavLink href="#" className="toggle-button">
-        <span className="bars"></span>
-        <span className="bars"></span>
-        <span className="bars"></span>
-      </NavLink>
+      <div className="hamburger" onClick={() => toggleMenu()}>
+          <div class="line"></div>
+            <div class="line"></div>
+               <div class="line"></div>
+        </div>
+
     </div>
   )
 }

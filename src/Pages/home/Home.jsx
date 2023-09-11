@@ -19,9 +19,9 @@ function Home() {
         <AdvertInfo/>
         <BumpaHelpComponent/>
         <Connect/>
+        <Testimonial/>
         <BusinessPlan/>
         <Logo/>  
-        <Testimonial/>
         <Footer/>
         
     </div>

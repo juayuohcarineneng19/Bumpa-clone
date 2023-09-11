@@ -2,6 +2,7 @@ import React from 'react'
 import "./AdvertiseComponent.css"
 
 function AdvertiseComponent(props) {
+
   return (
     <div className='advert'>
         <div className="advert-info">
@@ -9,7 +10,7 @@ function AdvertiseComponent(props) {
               <h1> {props.heading} </h1>
             <p> {props.text} </p>
 
-            <a href="/">{props.link}</a>
+            <a href="/" style={{color:'#008000'}} >{props.link}</a>
 
             </div>
             <div className="advert-image">
