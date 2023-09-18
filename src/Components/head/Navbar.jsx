@@ -13,7 +13,7 @@ function Navbar() {
       }
       
   return (
-    <div className='navbar'>
+    <div className='navbar scroll'>
         <div className="nav-logo">
         <h2 className="logo">Bumpa </h2>
       </div>
@@ -27,12 +27,11 @@ function Navbar() {
  
       <div div className={clicked ? "main-nav active" : "main-nav"}>
             <ul className="main-nav-list ">
-                <li><NavLink href="#" className="main-nav-link">Features</NavLink></li>
+                <li><NavLink href="#" className="main-nav-link">Features</NavLink> </li>
                 <li><NavLink href="#" className="main-nav-link">Community</NavLink></li>
                 <li><NavLink href="#" className="main-nav-link">Pricing</NavLink></li>
                 <li><NavLink href="#" className="main-nav-link">Learn</NavLink></li>
-                <li><NavLink href="#" className="main-nav-link nav-cta">Sell on Instagram</NavLink></li>
-            
+                <li><NavLink href="#" className="main-nav-link nav-cta">Sell on Instagram</NavLink></li>         
             </ul>
 
           <div className="navbuttons">

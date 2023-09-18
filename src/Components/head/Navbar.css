@@ -6,6 +6,7 @@
     justify-content: space-around;
     align-items: center;
 }
+
 .nav-logo a{
     text-decoration: none;
 }
@@ -19,7 +20,6 @@
     justify-content: space-between;
     gap: 5rem;
     align-items: center;
-    background-color: red;
 }
   
 li{
@@ -126,10 +126,15 @@ li{
 /* media query */
 
  @media screen and (max-width:1200px) {
+   
     .menu-icons{
         display: block;
         cursor: pointer;
         margin-left: 97%;
+    }
+    .menu-icon{
+        font-size: 32px;
+        font-weight: heavy;
     }
 
     .main-nav {
@@ -139,11 +144,24 @@ li{
         font-size: 32px;
         width: 90vw;
         gap: 2rem;
-        position: absolute;
+        position: fixed;
         top: 0;
+        z-index: -1;
         right: -100%;
-        /* height: 50vh; */
-        
+        opacity: 0;   
+    }
+
+    .main-nav.active{
+        left: 3%;
+        opacity: 1;
+        z-index: 99;
+        transition: 0.3s ease-in-out;
+        margin-top: 7rem;
+        background-color: #fff;
+    }
+     
+    .navbar{
+        z-index: 99;
     }
 
     .main-nav-list{
@@ -151,11 +169,11 @@ li{
         flex-direction: column;
         width: 100%; 
     }
-    .main-nav-link.nav-cta:link,
-      .main-nav-link.nav-cta:visited{
+       .main-nav-link.nav-cta:link,
+      .main-nav-link.nav-cta:active{
     padding: 0;
     color: black;
-    background-color: none;
+    background-color:#fff;
     border-radius: 0;
 }
     
@@ -165,56 +183,23 @@ li{
         flex-direction: column;
         text-align: center;
         gap: 0;
+        padding: 3rem;
     }
     .margin-right-sm{
         margin-right: 0;
     }
 
-    .main-nav.active{
-        left: 5%;
-        opacity: 1;
-        z-index: -1;
-        transition: 0.3s ease-in-out;
-        margin-top: 8rem;
-        z-index: 99;
-    }
-     
-
-    
-
-
-    /* .main-nav{
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        background-color: #fff;
-        width: 100%;
-        height: auto;
-        position: absolute;
-        /* top: 0; */
-        /* 
-        opacity: 0;
-        align-items: stretch;
-        padding: 80px 0 30px 0;
-        margin: 0 ;
-        transition: 0.3s ease-in-out;
-        border-radius: 13px;
-     
-    }
-    .main-nav.active{
-        left: 5%;
-        opacity: 1;
-        z-index: -1;
-        transition: 0.3s ease-in-out;
-    }
-    .main-nav-links{
+    .main-nav-link{
         display: block;
-        width: 92%;
-        font-size: 1.2rem;
-        padding: 2rem 0;
+        font-size: 42px;
+        padding: 1rem 0;
         margin-left: 20px;
-    } */
-     
+        border-bottom: 4px solid #e6f2e6;
+    }    
+    .nav-cta {
+        color:black;
+        background-color: #ffff;
+    } 
 }
  
 
