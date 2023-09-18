@@ -2,11 +2,9 @@
 .navbar{
     display: grid;
     width: 100%;
-    padding: ;
     grid-template-columns: 0.5fr 3fr;
     justify-content: space-around;
     align-items: center;
-    background-color:whitesmoke;
 }
 .nav-logo a{
     text-decoration: none;
@@ -21,6 +19,7 @@
     justify-content: space-between;
     gap: 5rem;
     align-items: center;
+    background-color: red;
 }
   
 li{
@@ -122,7 +121,100 @@ li{
 
 .menu-icons{
     display:none ;
+} 
+
+/* media query */
+
+ @media screen and (max-width:1200px) {
+    .menu-icons{
+        display: block;
+        cursor: pointer;
+        margin-left: 97%;
+    }
+
+    .main-nav {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+        font-size: 32px;
+        width: 90vw;
+        gap: 2rem;
+        position: absolute;
+        top: 0;
+        right: -100%;
+        /* height: 50vh; */
+        
+    }
+
+    .main-nav-list{
+        display: flex;
+        flex-direction: column;
+        width: 100%; 
+    }
+    .main-nav-link.nav-cta:link,
+      .main-nav-link.nav-cta:visited{
+    padding: 0;
+    color: black;
+    background-color: none;
+    border-radius: 0;
 }
+    
+    .navbuttons{
+        margin-right: 0;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 0;
+    }
+    .margin-right-sm{
+        margin-right: 0;
+    }
+
+    .main-nav.active{
+        left: 5%;
+        opacity: 1;
+        z-index: -1;
+        transition: 0.3s ease-in-out;
+        margin-top: 8rem;
+        z-index: 99;
+    }
+     
+
+    
 
 
+    /* .main-nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        background-color: #fff;
+        width: 100%;
+        height: auto;
+        position: absolute;
+        /* top: 0; */
+        /* 
+        opacity: 0;
+        align-items: stretch;
+        padding: 80px 0 30px 0;
+        margin: 0 ;
+        transition: 0.3s ease-in-out;
+        border-radius: 13px;
+     
+    }
+    .main-nav.active{
+        left: 5%;
+        opacity: 1;
+        z-index: -1;
+        transition: 0.3s ease-in-out;
+    }
+    .main-nav-links{
+        display: block;
+        width: 92%;
+        font-size: 1.2rem;
+        padding: 2rem 0;
+        margin-left: 20px;
+    } */
+     
+}
+ 
 
