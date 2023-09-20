@@ -173,8 +173,8 @@ li{
       .main-nav-link.nav-cta:active{
     padding: 0;
     color: black;
-    background-color:#fff;
     border-radius: 0;
+    background:none;
 }
     
     .navbuttons{
@@ -183,7 +183,7 @@ li{
         flex-direction: column;
         text-align: center;
         gap: 0;
-        padding: 3rem;
+        padding: 1rem;
     }
     .margin-right-sm{
         margin-right: 0;
@@ -196,10 +196,7 @@ li{
         margin-left: 20px;
         border-bottom: 4px solid #e6f2e6;
     }    
-    .nav-cta {
-        color:black;
-        background-color: #ffff;
-    } 
+     
 }
  
 

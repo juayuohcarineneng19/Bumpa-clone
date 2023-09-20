@@ -50,11 +50,12 @@
   }
 
   .accordion-content p{
-     margin-bottom: 1rem;
+     margin-bottom: 2rem;
   }
   
   .accordion.active .accordion-content {
     display: block;
+    margin-bottom: 1rem;
   }
 
   .accordion-icon {
