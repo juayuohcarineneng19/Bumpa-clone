@@ -197,11 +197,15 @@ li{
         border-bottom: 4px solid #e6f2e6;
     }    
      
-}
+} 
 
-.ccheking-for-repository{
-    color: red;
-    padding: 2rem;
+.checkx{
+    color:red;
+    font-size: 3900px
+} 
+
+.checkiing{
+    color: green;
+    font-weight: 600;
 }
- 
 
