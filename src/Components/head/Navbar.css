@@ -198,5 +198,10 @@ li{
     }    
      
 }
+
+.ccheking-for-repository{
+    color: red;
+    padding: 2rem;
+}
  
 
