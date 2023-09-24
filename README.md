@@ -1,70 +1,61 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Bumpa Homepage Clone
 
-In the project directory, you can run:
+This project involved cloning the homepage of [Bumpa](https://bumpa.com/), an all-in-one business management platform for African SMEs, using React. 
 
-### `npm start`
+## Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Cloned the visual design and key elements of Bumpa's homepage using React components
+- Created responsive layout that adapts across desktop and mobile
+- Implemented core functionality like navigation, sliders, modals etc
+- Utilized React Hooks for state management 
+- Leveraged React Context API for global state
+- Used React Router for navigation between sections
+- Styled components using  pure CSS
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Goals
 
-### `npm test`
+The goal was to gain hands-on experience building a frontend site in React by recreating a professional homepage design. This helped reinforce:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Creating reusable React components
+- Passing props and managing state effectively
+- Working with React hooks and Context API
+- Responsive web design
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Running the Project
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To run this React project locally:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+npm install
+npm start
+```
 
-### `npm run eject`
+This will launch the homepage on http://localhost:3000
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Room for Improvement
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Some ways this project could be expanded on:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Integrating with Bumpa's actual API or creating a mock backend
+- Adding more pages and routes 
+- Implementing more interactive elements
+- Improving accessibility
+- Adding tests
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Key Learnings
 
-## Learn More
+Recreating Bumpa's homepage provided great experience working with core React concepts. I'm now more comfortable with:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Breaking designs down into reusable component hierarchies
+- Fetching and displaying dynamic data 
+- Responsive web development workflows
+- CSS strategies like CSS Modules
+- Working with React Router 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Feedback Welcomed!
 
-### Code Splitting
+If you have any feedback or questions about this project, feel free to reach out!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
