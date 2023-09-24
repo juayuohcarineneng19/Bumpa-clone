@@ -22,7 +22,7 @@ The goal was to gain hands-on experience building a frontend site in React by re
 - Passing props and managing state effectively
 - Working with React hooks and Context API
 - Responsive web design
-
+- Stying components with pure css
 
 ## Running the Project
 
@@ -52,7 +52,7 @@ Recreating Bumpa's homepage provided great experience working with core React co
 - Breaking designs down into reusable component hierarchies
 - Fetching and displaying dynamic data 
 - Responsive web development workflows
-- CSS strategies like CSS Modules
+- CSS 
 - Working with React Router 
 
 ## Feedback Welcomed!
