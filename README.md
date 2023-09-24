@@ -11,8 +11,8 @@ This project involved cloning the homepage of [Bumpa](https://bumpa.com/), an al
 - Implemented core functionality like navigation, sliders, modals etc
 - Utilized React Hooks for state management 
 - Leveraged React Context API for global state
-- Used React Router for navigation between sections
-- Styled components using  pure CSS
+- Used React Router for navigation between sections.
+- Styled components using  pure CSS.
 
 ## Goals
 
