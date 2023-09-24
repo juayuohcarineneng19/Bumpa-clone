@@ -1,5 +1,3 @@
-
-
 # Bumpa Homepage Clone
 
 This project involved cloning the homepage of [Bumpa](https://bumpa.com/), an all-in-one business management platform for African SMEs, using React. 
